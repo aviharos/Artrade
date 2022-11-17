@@ -1,98 +1,108 @@
 {
+    "1": {
+        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
+        "type": "turn_on"
+    },
     "2": {
         "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
         "type": "turn_off"
     },
     "3": {
         "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
-        "type": "turn_on"
+        "type": "handle_good_cycle"
     },
     "4": {
-        "object_id": "urn:ngsi_ld:Workstation:Assembly1",
-        "type": "turn_off"
+        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
+        "type": "handle_reject_cycle"
     },
     "5": {
-        "object_id": "urn:ngsi_ld:Workstation:Assembly1",
-        "type": "turn_on"
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": "urn:ngsi_ld:Job:202200047"
+        }
+    },
+    "6": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200047/attrs/Counter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
+    },
+    "7": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": "urn:ngsi_ld:Job:202200045"
+        }
     },
     "8": {
-        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
-        "type": "reset"
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200045/attrs/Counter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
     },
     "9": {
-        "object_id": "urn:ngsi_ld:Workstation:Assembly1",
-        "type": "reset"
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": "urn:ngsi_ld:Job:202200046"
+        }
     },
     "10": {
-        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
-        "type": "handle_good_cycle"
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200046/attrs/Counter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
     },
     "11": {
-        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
-        "type": "handle_reject_cycle"
+        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
+        "type": "reset"
     },
     "12": {
-        "object_id": "urn:ngsi_ld:Workstation:Assembly1",
-        "type": "handle_good_cycle"
+        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
+        "type": "reset"
     },
     "13": {
-        "object_id": "urn:ngsi_ld:Workstation:Assembly1",
-        "type": "handle_reject_cycle"
-    },
-    "17": {
-        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
-        "type": "step"
-    },
-    "18": {
-        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
-        "type": "reset"
-    },
-    "19": {
         "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
         "type": "step"
     },
-    "20": {
-        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
-        "type": "reset"
-    },
-    "21": {
+    "14": {
         "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
         "type": "step"
     },
-    "22": {
-        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
-        "type": "reset"
-    },
-    "23": {
-        "object_id": "urn:ngsi_ld:Storage:CoverMagnetStorage1",
+    "15": {
+        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
         "type": "step"
     },
-    "24": {
-        "object_id": "urn:ngsi_ld:Storage:CoverMagnetStorage1",
-        "type": "reset"
-    },
-    "25": {
-        "object_id": "urn:ngsi_ld:Storage:CubeMagnetStorage1",
-        "type": "step"
-    },
-    "26": {
-        "object_id": "urn:ngsi_ld:Storage:CubeMagnetStorage1",
-        "type": "reset"
-    },
-    "27": {
-        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage2",
-        "type": "step"
-    },
-    "28": {
-        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage2",
-        "type": "reset"
-    },
-    "29": {
-        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage2",
-        "type": "step"
-    },
-    "30": {
-        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage2",
+    "16": {
+        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
         "type": "reset"
     },
     "33": {
