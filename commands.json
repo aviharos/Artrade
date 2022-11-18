@@ -1,21 +1,29 @@
 {
-    "1": {
-        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
-        "type": "turn_on"
-    },
-    "2": {
+    "20": {
         "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
         "type": "turn_off"
     },
-    "3": {
+    "21": {
+        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
+        "type": "turn_on"
+    },
+    "30": {
         "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
         "type": "handle_good_cycle"
     },
-    "4": {
+    "40": {
         "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
         "type": "handle_reject_cycle"
     },
-    "5": {
+    "41": {
+        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
+        "type": "step"
+    },
+    "500": {
+        "object_id": "urn:ngsi_ld:Workstation:InjectionMoulding1",
+        "type": "reset"
+    },
+    "510": {
         "special": null,
         "request": {
             "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
@@ -26,10 +34,10 @@
             "data": "urn:ngsi_ld:Job:202200047"
         }
     },
-    "6": {
+    "511": {
         "special": null,
         "request": {
-            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200047/attrs/Counter/value",
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200047/attrs/GoodPartCounter/value",
             "method": "PUT",
             "headers": [
                 "Content-Type: text/plain"
@@ -37,7 +45,18 @@
             "data": 0
         }
     },
-    "7": {
+    "512": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200047/attrs/RejectPartCounter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
+    },
+    "520": {
         "special": null,
         "request": {
             "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
@@ -48,10 +67,10 @@
             "data": "urn:ngsi_ld:Job:202200045"
         }
     },
-    "8": {
+    "521": {
         "special": null,
         "request": {
-            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200045/attrs/Counter/value",
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200045/attrs/GoodPartCounter/value",
             "method": "PUT",
             "headers": [
                 "Content-Type: text/plain"
@@ -59,7 +78,18 @@
             "data": 0
         }
     },
-    "9": {
+    "522": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200045/attrs/RejectPartCounter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
+    },
+    "530": {
         "special": null,
         "request": {
             "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Workstation:InjectionMoulding1/attrs/RefJob/value",
@@ -70,10 +100,10 @@
             "data": "urn:ngsi_ld:Job:202200046"
         }
     },
-    "10": {
+    "531": {
         "special": null,
         "request": {
-            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200046/attrs/Counter/value",
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200046/attrs/GoodPartCounter/value",
             "method": "PUT",
             "headers": [
                 "Content-Type: text/plain"
@@ -81,31 +111,18 @@
             "data": 0
         }
     },
-    "11": {
-        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
-        "type": "reset"
+    "532": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Job:202200046/attrs/RejectPartCounter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 0
+        }
     },
-    "12": {
-        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
-        "type": "reset"
-    },
-    "13": {
-        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
-        "type": "step"
-    },
-    "14": {
-        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
-        "type": "step"
-    },
-    "15": {
-        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
-        "type": "step"
-    },
-    "16": {
-        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
-        "type": "reset"
-    },
-    "33": {
+    "70": {
         "special": null,
         "request": {
             "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Storage:TrayLoaderStorage1/attrs/Counter/value",
@@ -113,10 +130,33 @@
             "headers": [
                 "Content-Type: text/plain"
             ],
-            "data": "3"
+            "data": 0
         }
     },
-    "34": {
+    "80": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Storage:TrayUnloaderStorage1/attrs/Counter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": 2
+        }
+    },
+    "90": {
+        "object_id": "urn:ngsi_ld:Storage:TrayLoaderStorage1",
+        "type": "step"
+    },
+    "91": {
+        "object_id": "urn:ngsi_ld:Storage:TrayUnloaderStorage1",
+        "type": "step"
+    },
+    "u16": {
+        "object_id": "urn:ngsi_ld:Storage:RejectStorage1",
+        "type": "reset"
+    },
+    "t34": {
         "special": null,
         "request": {
             "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Storage:TrayLoaderStorage1/attrs/Counter/value",
@@ -125,6 +165,17 @@
                 "Content-Type: text/plain"
             ],
             "data": null
+        }
+    },
+    "t33": {
+        "special": null,
+        "request": {
+            "url": "http://orion:1026/v2/entities/urn:ngsi_ld:Storage:TrayLoaderStorage1/attrs/Counter/value",
+            "method": "PUT",
+            "headers": [
+                "Content-Type: text/plain"
+            ],
+            "data": "3"
         }
     }
 }
