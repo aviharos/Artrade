@@ -1,6 +1,6 @@
 {
 	"type": "OEE",
-	"id": "urn:ngsi_ld:OEE:InjectoinMoulding1",
+	"id": "urn:ngsi_ld:OEE:InjectionMoulding1",
 	"RefWorkstation": {"type": "Relationship", "value": "urn:ngsi_ld:Workstation:InjectionMoulding1"},
 	"RefJob": {"type": "Relationship", "value": "urn:ngsi_ld:Job:202200045"},
 	"Availability": {"type": "Number", "value": null},
