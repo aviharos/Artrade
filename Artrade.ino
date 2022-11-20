@@ -38,8 +38,8 @@ https://www.arduino.cc/en/Tutorial/BuiltInExamples/StateChangeDetection
 
 // constants
 const unsigned long DEBOUNCE_DELAY = 50;
-const unsigned long MAX_IDLE_TIME_INPUT_STORAGE = 5000;
-const unsigned long MAX_IDLE_TIME_OUTPUT_STORAGE = 5000;
+const unsigned long MAX_IDLE_TIME_INPUT_STORAGE = 10000;
+const unsigned long MAX_IDLE_TIME_OUTPUT_STORAGE = 10000;
 
 // pins
 const byte availabilityPin = 2;
