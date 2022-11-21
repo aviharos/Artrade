@@ -6,9 +6,9 @@
 	"JobNumber": {"type": "Number", "value": 202200046},
 	"CurrentOperationType": {"type": "Text", "value": "Cover001_injection_moulding"},
 	"JobTargetNumber": {"type": "Number", "value": 8000},
-	"JobStartDate": {"type": "Date", "value": "2022-03-21"},
-	"JobEndDate": {"type": "Date", "value": "2022-03-24"},
-	"JobDueDate": {"type": "Date", "value": "2022-03-31"},
+	"JobStartDate": {"type": "Date", "value": "2022-11-28"},
+	"JobEndDate": {"type": "Date", "value": "2022-12-02"},
+	"JobDueDate": {"type": "Date", "value": "2022-12-09"},
 	"GoodPartCounter": {"type": "Number", "value": 0},
 	"RejectPartCounter": {"type": "Number", "value": 0},
 	"Finished": {"type": "Boolean", "value": false}

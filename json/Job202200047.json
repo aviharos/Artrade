@@ -6,9 +6,9 @@
 	"JobNumber": {"type": "Number", "value": 202200047},
 	"CurrentOperationType": {"type": "Text", "value": "Cube001_injection_moulding"},
 	"JobTargetNumber": {"type": "Number", "value": 4000},
-	"JobStartDate": {"type": "Date", "value": "2022-03-21"},
-	"JobEndDate": {"type": "Date", "value": "2022-03-24"},
-	"JobDueDate": {"type": "Date", "value": "2022-03-31"},
+	"JobStartDate": {"type": "Date", "value": "2022-12-05"},
+	"JobEndDate": {"type": "Date", "value": "2022-12-09"},
+	"JobDueDate": {"type": "Date", "value": "2022-12-16"},
 	"GoodPartCounter": {"type": "Number", "value": 0},
 	"RejectPartCounter": {"type": "Number", "value": 0},
 	"Finished": {"type": "Boolean", "value": false}
